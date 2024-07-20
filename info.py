@@ -69,7 +69,7 @@ OWNER_USERNAME = environ.get('OWNER_USERNAME', 'Vkflixnews') # owner username wi
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+tLkSPi8tQRhkYmI9')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/vkflixnews_Official')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/vkflixnews_Official')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'vkflixnews_Official) # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'vkflixnews_Official') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
