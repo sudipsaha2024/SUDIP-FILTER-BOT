@@ -129,7 +129,7 @@ async def get_poster(query, bulk=False, id=False, file=None):
     if movie.get("original air date"):
         date = movie["original air date"]
     elif movie.get("year"):
-        date = movie.get("year")
+        date = movie.get("year")a
     else:
         date = "N/A"
     plot = ""
@@ -640,7 +640,7 @@ async def send_all(bot, userid, files, ident, chat_id, user_name, query):
                                 InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                                 InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                             ],[
-                                InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorrio")
+                                InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/SUDIPSAHA06")
                                 ]
                             ]
                         )
