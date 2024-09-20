@@ -129,7 +129,7 @@ async def get_poster(query, bulk=False, id=False, file=None):
     if movie.get("original air date"):
         date = movie["original air date"]
     elif movie.get("year"):
-        date = movie.get("year")a
+        date = movie.get("year")
     else:
         date = "N/A"
     plot = ""
